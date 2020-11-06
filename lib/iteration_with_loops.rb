@@ -12,7 +12,8 @@ def find_even_values(src)
         in_counter += 1;
       else 
         in_counter += 1;
+      end
     end
-    counter +=1
+    counter += 1
   end
 end
