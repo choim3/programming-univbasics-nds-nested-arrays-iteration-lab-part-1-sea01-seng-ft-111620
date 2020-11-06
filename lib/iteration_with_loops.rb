@@ -8,7 +8,7 @@ def find_even_values(src)
   
     in_counter = 0
     
-    while in_counter < src[counter].count do
+    while in_counter < src[counter].length do
       if src[counter][in_counter] % 2 == 0
         puts src[counter][in_counter] 
         in_counter += 1;
@@ -17,6 +17,5 @@ def find_even_values(src)
       end
       counter +=1
     end
-        
-end 
+  end
 end
