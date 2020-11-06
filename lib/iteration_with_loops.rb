@@ -10,7 +10,7 @@ def find_even_values(src)
     
     while in_counter < src[counter] do
       if src[counter][in_counter] % 2 == 0
-        p src[counter][in_counter] 
+        puts src[counter][in_counter] 
         in_counter += 1;
       else 
         in_counter += 1;
